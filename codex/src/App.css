@@ -1,28 +1,34 @@
-.App {
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #DDE2E3;
+}
+
+.page-container {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/background.jpg");
+  background-size: contain;
+  background-size: cover;
+}
+
+.app-title {
   text-align: center;
+  background-color: #B37C57;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.login-container {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5em 0;
 }
 
-.App-header {
-  background-color: #221e1f;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+  .login-container div.segment {
+    background-color: #B37C57;
+    padding: 1.5em 0;
+  }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  .login-container .primary {
+    background-color: #60412B !important;
+    color: #DDE2E3 !important;
+  }
