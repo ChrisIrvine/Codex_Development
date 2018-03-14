@@ -32,3 +32,7 @@ h1 {
     background-color: #60412B !important;
     color: #DDE2E3 !important;
   }
+
+  .login-container .secondary {
+    color: #DDE2E3 !important;
+  }
