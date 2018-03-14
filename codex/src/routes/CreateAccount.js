@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PlaceholderImage } from 'placeholder.js';
+import PlaceholderImage from '../components/placeholder';
 import '../App.css';
 
 class App extends Component {
