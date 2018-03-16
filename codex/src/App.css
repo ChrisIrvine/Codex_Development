@@ -1,31 +1,34 @@
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: #DDE2E3;
-}
-
 .page-container {
   height: 100%;
   width: 100%;
-  background-image: url("./images/background.jpg");
-  background-size: contain;
-  background-size: cover;
+}
+
+img.bg-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -5;
 }
 
 .app-title {
+  background-color:  #B37C57;
+  color: #DDE2E3 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  position: relative;
   text-align: center;
-  background-color: #B37C57;
 }
 
 .login-container {
   height: 100%;
   width: 50%;
   margin: 0 auto;
-  padding: 5em 0;
+  padding: 15em 0 10em 0;
 }
 
   .login-container div.segment {
     background-color: #B37C57;
     padding: 1.5em 0;
+    margin-top: 0rem;
   }
 
   .login-container .primary {
