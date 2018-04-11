@@ -15,7 +15,7 @@ const Account = () => (
     <Grid columns={2} relaxed>
       <Grid.Column>
         <Segment basic>
-          <Link to={'/login'}><Button primary fluid>Login</Button></Link>
+          <Link to={'/dungeon-master'}><Button primary fluid>Login</Button></Link>
         </Segment>
       </Grid.Column>
       <Grid.Column>
