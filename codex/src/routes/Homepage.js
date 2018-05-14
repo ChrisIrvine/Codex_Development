@@ -20,7 +20,7 @@ const Account = () => (
       </Grid.Column>
       <Grid.Column>
         <Segment basic>
-          <Link to={'/reset-password'}><Button primary fluid>Reset Password</Button></Link>
+          <Link to={'/player'}><Button primary fluid>Reset Password</Button></Link>
         </Segment>
       </Grid.Column>
     </Grid>
